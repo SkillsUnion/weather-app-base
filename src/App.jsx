@@ -8,7 +8,7 @@ import { useState } from "react";
 // After we learn backend, we should store all API keys in server-side environment variables.
 
 // Place your API key here
-// const OPEN_WEATHER_API_KEY = "646cb548a97d514f3a52c5e93d83fe41";
+const OPEN_WEATHER_API_KEY = "646cb548a97d514f3a52c5e93d83fe41";
 
 function App() {
   const [cityInputValue, setCityInputValue] = useState("");
