@@ -61,9 +61,6 @@ function App() {
 
   return (
     <>
-      <div>
-        <img src={logo} className="logo react" alt="Rocket logo" />
-      </div>
       <h1>Weather App</h1>
       <div className="card">
         <form onSubmit={handleSubmit}>
