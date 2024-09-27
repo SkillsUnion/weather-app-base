@@ -6,7 +6,9 @@ import { useState } from "react";
 
 // Hard-coding API keys in code is insecure behaviour and we are only doing this for teaching purposes.
 // After we learn backend, we should store all API keys in server-side environment variables.
-const OPEN_WEATHER_API_KEY = "646cb548a97d514f3a52c5e93d83fe41";
+
+// Place your API key here
+// const OPEN_WEATHER_API_KEY = "646cb548a97d514f3a52c5e93d83fe41";
 
 function App() {
   const [cityInputValue, setCityInputValue] = useState("");
@@ -61,9 +63,6 @@ function App() {
 
   return (
     <>
-      <div>
-        <img src={logo} className="logo react" alt="Rocket logo" />
-      </div>
       <h1>Weather App</h1>
       <div className="card">
         <form onSubmit={handleSubmit}>
