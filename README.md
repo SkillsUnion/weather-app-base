@@ -1,4 +1,4 @@
-# Rocket Academy Coding Bootcamp: Weather App
+# Coding Bootcamp: Weather App
 
 ## Available Scripts
 
